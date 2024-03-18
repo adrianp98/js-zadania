@@ -1,5 +1,5 @@
-let button = document.querySelector;
+let button = document.querySelector('button');
 
-document.querySelector("button").onclick = function () {
+button.onclick = function () {
   alert("wygrałeś iPhone 15");
 };
